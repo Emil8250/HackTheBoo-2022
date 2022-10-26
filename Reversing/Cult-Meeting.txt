@@ -1,0 +1,5 @@
+1. I opened the meeting file in Ghidra which did the reversing, and opened the main function.
+2. I took the secret code: iVar1 = strcmp(local_48,"sup3r_s3cr3t_p455w0rd_f0r_u!"); from the source.
+3. Then i did nc 178.62.85.130 30874 which asked me for this weeks password.
+4. After pasting the password from the source, I'm given access to a shell, where a file called flag.txt is located.
+5. cat flag.txt HTB{1nf1ltr4t1ng_4_cul7_0f_str1ng5}
